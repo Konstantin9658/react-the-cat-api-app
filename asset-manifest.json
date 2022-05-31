@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Konstantin9658/react-the-cat-api-app/static/css/main.3b8db12a.css",
+    "main.js": "/Konstantin9658/react-the-cat-api-app/static/js/main.aeef21f0.js",
+    "index.html": "/Konstantin9658/react-the-cat-api-app/index.html",
+    "static/media/image-hover-heart.svg": "/Konstantin9658/react-the-cat-api-app/static/media/image-hover-heart.108a5322242cff001829.svg",
+    "static/media/heart-clicked.svg": "/Konstantin9658/react-the-cat-api-app/static/media/heart-clicked.6e844464e1e159f1f41b.svg",
+    "static/media/hover-btn-heart.svg": "/Konstantin9658/react-the-cat-api-app/static/media/hover-btn-heart.8220379cb36244a7738b.svg",
+    "main.3b8db12a.css.map": "/Konstantin9658/react-the-cat-api-app/static/css/main.3b8db12a.css.map",
+    "main.aeef21f0.js.map": "/Konstantin9658/react-the-cat-api-app/static/js/main.aeef21f0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b8db12a.css",
+    "static/js/main.aeef21f0.js"
+  ]
+}
