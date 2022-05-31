@@ -1,0 +1,76 @@
+.app__list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+  grid-template-rows: auto;
+  gap: 48px;
+  max-width: 1317px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.app__list-item {
+  position: relative;
+  width: 225px;
+  height: 225px;
+  /* margin-bottom: 48px;
+  margin-right: 48px; */
+}
+
+.app__list-item:nth-child(5n + 5) {
+  margin-right: 0;
+}
+
+.app__btn {
+  opacity: 0;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  z-index: 2;
+  right: 19px;
+  bottom: 24px;
+  background-image: url("../../img/image-hover-heart.svg");
+  background-repeat: no-repeat;
+}
+
+.app__list-item:hover {
+  box-shadow: 0px 6px 5px rgba(0, 0, 0, 0.24), 0px 9px 18px rgba(0, 0, 0, 0.18);
+  transition: 0.3s ease-in-out;
+}
+
+.app__list-item:hover .app__btn {
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  display: flex;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+}
+
+.app__btn:hover {
+  background-image: url("../../img/hover-btn-heart.svg");
+}
+
+.app__list-item--like .app__btn {
+  opacity: 1;
+  background-image: url("../../img/heart-clicked.svg");
+}
+
+.app__list-item img {
+  object-fit: cover;
+}
+
+@media (max-width: 1023px) {
+  .app__btn {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,37 @@
+.app-header {
+  background-color: #2196f3;
+  width: 100%;
+  min-height: 64px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.24);
+  display: flex;
+}
+
+.app-header__container {
+  max-width: 1317px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.app-header button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0 10px;
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0.25px;
+}
+
+.app-header button:hover,
+.app-header button:focus-visible,
+.app-header button.select {
+  transition: 0.3s ease-in-out;
+  background-color: #1e88e5;
+}
